@@ -8,4 +8,5 @@ RUN sed -ie 's/\/root\/pet-breed/\/home\/nimbix\/pet-breed/g' /opt/pet-breed-mas
 ADD launch.sh /usr/bin/launch.sh
 ADD url.txt /etc/NAE/url.txt
 RUN chmod 0755 /usr/bin/launch.sh
+EXPOSE 22
 EXPOSE 5000
